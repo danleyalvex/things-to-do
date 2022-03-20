@@ -1,6 +1,9 @@
 @media screen and (max-width: 700px){
     h1{
         font-size: 3rem;
+    }
 
+    form{
+        width: 300px;
     }
 }
