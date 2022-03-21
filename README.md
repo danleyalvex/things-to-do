@@ -1,11 +1,11 @@
 # things-to-do
-***
+
 
 Site Desenvolvido para aprimorar os meus conhecimentos em **HTML**, **CSS** e **JavaScript**.
 
 
 
-***
+
 ### Sobre o Projeto
 O intuito do projeto é permitir ao usuário a gerenciar suas tarefas cotiadianas básicas. ex: Lista de mercado, Afazeres domésticos e etc
 
@@ -42,3 +42,7 @@ Pressione para deletar tarefa.
 - CSS
 - HTML
 - JavaScript
+
+## Links
+[Acesso o site do projeto](https://danleyalvex.github.io/things-to-do/ "site lista de afazeres")
+
