@@ -87,7 +87,7 @@ h4{
 
 .rodape{
     padding: 10rem  3rem 0;
-    text-align: center;
+    /* text-align: center; */
     display: flex; 
     justify-content: space-around;
     align-items: center;
@@ -100,4 +100,14 @@ h4{
 
 .rodape i:hover{
     color: blue;
+}
+
+.titulo__social {
+    font-size: .8em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #c4c4c4;
+}
+a {
+    text-decoration: none;
 }
