@@ -31,12 +31,12 @@ Pressione para deletar tarefa.
 
 ## Imagens
 
-![Imagem site desktop](/todo-desk.png "Desktop")
+![Imagem site desktop](/img/desktop.PNG "Desktop")
 
 
 ## Responsivo
 
-![Imagem site responsivo](/todo-mobile.png "responsivo")
+![Imagem site responsivo](/img/mobile.PNG "Responsivo")
 
 ## Ferramentas
 - CSS
