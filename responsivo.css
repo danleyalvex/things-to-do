@@ -1,9 +1,36 @@
-@media screen and (max-width: 700px){
+@media screen and (max-width: 425px){
+ 
     h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     form{
         width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        width: 10vw;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    form{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    img {
+        width: 10vw;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    img{
+        width: 5vw;
     }
 }

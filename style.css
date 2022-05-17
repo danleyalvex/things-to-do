@@ -1,14 +1,23 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Abel:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+:root {
+    --cor-primaria: #353535;
+    --cor-secundaria: #f8f9fa;
+    --cor-bg:#f4f3ee;
+    --cor-auxiliar: #bababa;
+}
+
+
 
 *{
     box-sizing: border-box;
 }
 
 body {
-    background-color: #ddd8c4;
-    color: rgb(0, 0, 0);
-    font-family: 'Abel', sans-serif;
+    background-color: var(--cor-bg);
+    /* color: rgb(0, 0, 0); */
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,13 +26,14 @@ body {
 }
 
 h1{
-    color: #1b005f;
+    color: var(--cor-primaria);
     font-size: 2rem;
     text-align: center;
     opacity: 0.4;
 }
 img {
-    width: 7vw;
+    width: 20vw;
+    margin-top: 3rem;
 }
 
 .book{
@@ -32,14 +42,14 @@ img {
 }
 
 form{
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
     max-width: 100%;
     width: 400px;
 }
 
 .input {
     border: none;
-    color: #444;
+    color: var(--cor-primaria);
     font-size: 1.4rem;
     padding: 1rem 2rem;
     display: block;
@@ -47,16 +57,17 @@ form{
 }
 
 .input::placeholder{
-    color: #858585;
+    color: var(--cor-auxiliar);
     text-align: center;
 }
 
 
 .todos {
-    background-color: #fff;
+    background-color: var(--cor-secundaria);
     padding: 0;
     margin: 0;
     list-style-type: none;
+    border-radius: 5px;
 
 }
 
@@ -65,7 +76,7 @@ form{
     cursor: pointer;
     font-size: 1.5rem;
     padding: 1rem 2rem;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 .todos li.completed {
@@ -86,26 +97,19 @@ h4{
 
 .rodape{
     padding: 10rem  3rem 0;
-    /* text-align: center; */
+    text-align: center;
     display: flex; 
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
-.rodape i{
-    color: red;
-}
-
-.rodape i:hover{
-    color: blue;
-}
 
 .titulo__social {
     font-size: .8em;
     letter-spacing: .2em;
     text-transform: uppercase;
-    color: #c4c4c4;
+    color: var(--cor-auxiliar);
 }
 a {
     text-decoration: none;
