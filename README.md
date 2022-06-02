@@ -1,7 +1,9 @@
-# things-to-do
+<div align='center'>
+<img src="img/logo-template.png">
 
-
-Site Desenvolvido para aprimorar os meus conhecimentos em **HTML**, **CSS** e **JavaScript**.
+[Acesso o site do projeto](https://danleyalvex.github.io/things-to-do/ "site lista de afazeres")
+</div>
+Site Desenvolvido para aprimorar os meus conhecimentos em HTML, CSS e JavaScript.
 
 
 
@@ -31,14 +33,15 @@ Pressione para deletar tarefa.
 
 ## Imagens
 
-![Imagem site desktop](/img/desktop.PNG "Desktop")
+![image](https://user-images.githubusercontent.com/85087531/171667858-12bff2d9-e428-433e-b2ed-e51d21cb7e4b.png)
+
 
 
 ## Responsivo
 
-![Imagem site responsivo](/img/mobile.PNG "Responsivo")
+![image](https://user-images.githubusercontent.com/85087531/171667783-100dcbbc-2432-450f-b74a-a7742bbcada7.png)
 
-## Ferramentas
+## Tecnologias usadas
 - CSS
 - HTML
 - JavaScript
