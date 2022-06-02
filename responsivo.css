@@ -1,21 +1,19 @@
 @media screen and (max-width: 425px){
  
-    h1{
-        font-size: 2rem;
-    }
 
     form{
         width: 300px;
+    }
+    img {
+        width: 200px;
+        margin-bottom: 2rem;
     }
 }
 
 @media screen and (min-width: 768px) {
     img {
-        width: 10vw;
-    }
-
-    h1{
-        font-size: 2rem;
+        width: 200px;
+        margin-bottom: 2rem;
     }
 
     form{
@@ -25,12 +23,14 @@
 
 @media screen and (min-width:1024px) {
     img {
-        width: 10vw;
+        width: 200px;
+        margin-bottom: 2rem;
     }
 }
 
 @media screen and (min-width: 1200px){
-    img{
-        width: 5vw;
+    img {
+        width: 200px;
+        margin-bottom: 2rem;
     }
 }

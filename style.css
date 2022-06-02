@@ -4,7 +4,7 @@
 :root {
     --cor-primaria: #353535;
     --cor-secundaria: #f8f9fa;
-    --cor-bg:#f4f3ee;
+    --cor-bg:#101010;
     --cor-auxiliar: #bababa;
 }
 
@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--cor-bg);
-    /* color: rgb(0, 0, 0); */
+    /* color: var(--cor-secundaria); */
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
@@ -26,14 +26,17 @@ body {
 }
 
 h1{
-    color: var(--cor-primaria);
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     opacity: 0.4;
+    color: #44b4ff;
 }
 img {
-    width: 20vw;
-    margin-top: 3rem;
+    
+        width: 200px;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+    
 }
 
 .book{
@@ -51,14 +54,15 @@ form{
     border: none;
     color: var(--cor-primaria);
     font-size: 1.4rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     display: block;
     width: 100%;
+    height: 3rem;
 }
 
 .input::placeholder{
     color: var(--cor-auxiliar);
-    text-align: center;
+    text-align: start;
 }
 
 
@@ -92,9 +96,20 @@ small{
 }
 h4{
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
+    color: #bababa;
 }
 
+.instrucao {
+    background-color: #35353553;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+small {
+    color: #b6b6b6;
+}
 .rodape{
     padding: 10rem  3rem 0;
     text-align: center;
