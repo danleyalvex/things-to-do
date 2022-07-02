@@ -1,20 +1,12 @@
 @media screen and (max-width: 425px){
- 
 
     form{
         width: 300px;
     }
-    img {
-        width: 200px;
-        margin-bottom: 2rem;
-    }
+
 }
 
 @media screen and (min-width: 768px) {
-    img {
-        width: 200px;
-        margin-bottom: 2rem;
-    }
 
     form{
         width: 600px;
@@ -22,15 +14,9 @@
 }
 
 @media screen and (min-width:1024px) {
-    img {
-        width: 200px;
-        margin-bottom: 2rem;
-    }
+  
 }
 
 @media screen and (min-width: 1200px){
-    img {
-        width: 200px;
-        margin-bottom: 2rem;
-    }
+  
 }

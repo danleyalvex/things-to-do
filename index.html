@@ -7,30 +7,38 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon"  href="img/icone-logo.png">
     <link rel="stylesheet" href="responsivo.css">
+    <script src="https://kit.fontawesome.com/f71e83bb45.js" crossorigin="anonymous"></script>
     <title>ThingsToDo</title>
 </head>
 <body>
-    <img src="img/logo-template.png" alt="imagem logo things to do" class="logo">
-    <h1>Gerencie suas tarefas diárias.</h1>
-    <form id="form">
-        <input type="text" class="input" id="input" placeholder="Digite aqui sua tarefa" autocomplete="off">
-
-        <ul class="todos" id="todos">
-        </ul>
-    </form>
-
-
-        <div class="instrucao">
-            <h1>Instruções</h1>
-            <h4>Desktop</h4>
+    <header>
+        <img src="img/logo-template.png" alt="imagem logo things to do" class="logo">
+         <h1 class="cabecalho__titulo">Gerencie suas tarefas diárias.</h1>
+    </header>
+    <div class="conteudo">
+        <h1 class="titulo__conteudo">Instruções</h1>
+        <details>
+            <summary>Desktop</summary>
             <small>Use botão <strong>Esquerdo</strong>  para completar tarefa<br>Use botão <strong>Direito</strong> para deletar tarefa<br></small>
-            <h4>Mobile</h4>
+        </details>
+        <details>
+            <summary>Mobile</summary>
             <small><strong>Clique</strong> na tela para completar tarefa<br><strong>Pressione</strong> para deletar tarefa.</small>
-        </div>
-   
+        </details>
     
+        <form id="form">
+            <input type="text" class="input" id="input" placeholder="Digite aqui sua tarefa" autocomplete="off" maxlength="15">
+
+            <ul class="todos" id="todos">
+            </ul>
+        </form>
+    </div>
     <footer class="rodape">
-       <a href="https://www.instagram.com/danleyalvex/" target="_blank"> <h3 class="titulo__social">&copy 2022 Danley Alves</h3></a>
+        <ul class="links">
+            <li class="links-rodape"> <i class="fa-brands fa-behance"></i></li>
+            <li class="links-rodape"> <i class="fa-brands fa-github"></i></li>
+            <li class="links-rodape"> <i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
     </footer>
     <script src="script.js"></script>
 </body>
