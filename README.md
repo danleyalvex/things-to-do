@@ -33,13 +33,13 @@ Pressione para deletar tarefa.
 
 ## Imagens
 
-![image](https://user-images.githubusercontent.com/85087531/171667858-12bff2d9-e428-433e-b2ed-e51d21cb7e4b.png)
+![image]()
 
 
 
 ## Responsivo
 
-![image](https://user-images.githubusercontent.com/85087531/171667783-100dcbbc-2432-450f-b74a-a7742bbcada7.png)
+![image]()
 
 ## Tecnologias usadas
 - CSS
