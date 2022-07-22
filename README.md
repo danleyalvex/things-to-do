@@ -1,5 +1,5 @@
 <div align='center'>
-<img src="img/logo-template.png">
+<img src="">
 
 [Acesso o site do projeto](https://danleyalvex.github.io/things-to-do/ "site lista de afazeres")
 </div>
